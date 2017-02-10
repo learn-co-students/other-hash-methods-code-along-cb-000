@@ -10,4 +10,7 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
+  #smccarty begins to code...
+  groceries.values.flatten
+  #and has NAILED IT!
 end

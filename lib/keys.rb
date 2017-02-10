@@ -10,4 +10,7 @@ require 'pry'
 
 def get_the_keys(groceries)
   #code your solution here!
+  #smccarty begins to code...
+  groceries.keys.flatten
+  #and has NAILED IT!
 end
