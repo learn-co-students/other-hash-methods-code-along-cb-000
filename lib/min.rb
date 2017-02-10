@@ -13,5 +13,5 @@ def get_the_min(groceries)
   #smccarty begins to code...
   groceries.values.flatten.sort[0]
   #bidning.pry helped me understand
-  #and has FINISHED IT!!!
+  #and has FINISHED IT!!!learn.submit bae baae U KNOW ME OP GG!!!
 end
