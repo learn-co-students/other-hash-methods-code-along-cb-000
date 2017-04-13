@@ -10,4 +10,11 @@ require 'pry'
 
 def get_the_min(groceries)
   #code your solution here!
+  min = "zzzz"
+  groceries.each do |key,value|
+    value.each do|food|
+      min = food if food<min
+    end
+  end
+  min
 end
