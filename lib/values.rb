@@ -15,12 +15,14 @@ def get_the_values(groceries)
 	# end
 	# results
 
-	items = groceries.values
-	results = []
-	items.each do |values|
-		results.concat(values)
-	end
-	results
+	# items = groceries.values
+	# results = []
+	# items.each do |values|
+	# 	results.concat(values)
+	# end
+	# results
+
+	groceries.values.flatten
 end
 
 
