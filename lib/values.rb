@@ -10,4 +10,7 @@ require 'pry'
 
 def get_the_values(groceries)
   #code your solution here!
+  arr =[]
+  groceries.each_value {|v| arr.push(v)}
+  arr.flatten
 end

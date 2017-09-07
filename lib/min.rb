@@ -10,4 +10,8 @@ require 'pry'
 
 def get_the_min(groceries)
   #code your solution here!
+  arr =[]
+  groceries.each_value {|value| arr.push(value)}
+  first = arr.flatten.sort.shift
+  first
 end
