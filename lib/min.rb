@@ -8,6 +8,13 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
+# Use the min method to collect the value that comes first alphabetically ("broccoli")
 def get_the_min(groceries)
-  #code your solution here!
+  # groceries.values
+  # binding.pry
+
+  groceries.values.flatten.min
+  # also the same as: groceries.values.flatten.sort.first
 end
+
+# ruby bin/min
