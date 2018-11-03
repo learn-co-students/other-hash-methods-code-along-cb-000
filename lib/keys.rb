@@ -10,4 +10,15 @@ require 'pry'
 
 def get_the_keys(groceries)
   #code your solution here!
+  puts groceries.keys
+  groceries.keys
+
 end
+
+
+get_the_keys(    {
+      dairy: ["milk", "yogurt", "cheese"],
+      vegetable: ["carrots", "broccoli", "cucumbers"],
+      meat: ["chicken", "steak", "salmon"],
+      grains: ["rice", "pasta"]
+    })
