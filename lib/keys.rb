@@ -10,4 +10,9 @@ require 'pry'
 
 def get_the_keys(groceries)
   #code your solution here!
+  keys = groceries.collect do |key, values|
+    key
+  #code your solution here!
+  end
+  keys
 end
