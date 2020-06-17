@@ -10,4 +10,7 @@ require 'pry'
 
 def get_the_keys(groceries)
   #code your solution here!
+  arr =[]
+  groceries.each_key {|key| arr.push(key)}
+  arr
 end
