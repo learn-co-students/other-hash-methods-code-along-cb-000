@@ -9,5 +9,14 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  #code your solution here!
+=begin
+  groc_array = Array.new
+  groceries.values.each { |array|
+    array.each {|item|
+      groc_array.push(item)
+    }
+  }
+  return groc_array
+=end
+    return groceries.values.flatten
 end

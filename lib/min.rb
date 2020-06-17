@@ -9,5 +9,16 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  #code your solution here!
+=begin
+  min_grocery = nil
+  groceries.values.each { |array|
+    array.each {|item|
+      if min_grocery == nil || item < min_grocery
+        min_grocery = item
+      end
+    }
+  }
+  return min_grocery
+=end
+    return groceries.values.flatten.min
 end
