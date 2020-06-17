@@ -8,6 +8,10 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
+# Use the keys method to collect all of the keys of the hash
 def get_the_keys(groceries)
-  #code your solution here!
+  groceries.keys
 end
+
+
+# ruby bin/keys

@@ -8,6 +8,28 @@ require 'pry'
 #  grains: ["rice", "pasta"]
 # }
 
+# Use the values method to collect all of the values of the grocery keys
 def get_the_values(groceries)
-  #code your solution here!
+  groceries.values
+# binding.pry
+  # note: groceries.values returns a nested array:
+  # [["milk", "yogurt", "cheese"],
+  # ["carrots", "broccoli", "cucumbers"],
+  # ["chicken", "steak", "salmon"],
+  # ["rice", "pasta"]]
+  groceries.values.flatten
+  # note: groceries.values.flatten returns a single array:
+  # ["milk",
+  # "yogurt",
+  # "cheese",
+  # "carrots",
+  # "broccoli",
+  # "cucumbers",
+  # "chicken",
+  # "steak",
+  # "salmon",
+  # "rice",
+  # "pasta"]
 end
+
+# ruby bin/values
