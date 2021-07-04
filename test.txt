@@ -1,0 +1,33 @@
+
+#get_the_keys
+  returns all the keys from the hash
+
+#get_the_min
+  returns the grocery item that comes first alphebetically (FAILED - 1)
+
+#get_the_values
+  returns all the values from the hash
+
+Failures:
+
+  1) #get_the_min returns the grocery item that comes first alphebetically
+     Failure/Error: expect(result).to eq("broccoli")
+
+       expected: "broccoli"
+            got: [:dairy, ["milk", "yogurt", "cheese"]]
+
+       (compared using ==)
+
+       Diff:
+       @@ -1,2 +1,2 @@
+       -"broccoli"
+       +[:dairy, ["milk", "yogurt", "cheese"]]
+     # ./spec/min_spec.rb:17:in `block (2 levels) in <top (required)>'
+
+Finished in 0.01389 seconds (files took 0.49544 seconds to load)
+3 examples, 1 failure
+
+Failed examples:
+
+rspec ./spec/min_spec.rb:15 # #get_the_min returns the grocery item that comes first alphebetically
+
