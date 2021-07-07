@@ -9,5 +9,13 @@ require 'pry'
 # }
 
 def get_the_min(groceries)
-  #code your solution here!
+  lowest = "z"
+  groceries.each do |key, value|
+    value.each do |item|
+      if item < lowest
+        lowest = item
+      end
+    end
+  end
+  return lowest
 end
